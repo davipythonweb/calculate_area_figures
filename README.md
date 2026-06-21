@@ -39,7 +39,7 @@ api_geometria/
 
 ## Responsabilidade de Cada Camada
 
-### app.py
+### main.py
 
 Ponto de entrada da aplicação.
 

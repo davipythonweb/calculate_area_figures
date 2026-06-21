@@ -6,6 +6,7 @@ from routes.paralelogramos import paralelogramos_bp
 
 app = Flask(__name__)
 
+# Registrar os blueprints
 app.register_blueprint(home_bp)
 app.register_blueprint(poligonos_bp)
 app.register_blueprint(paralelogramos_bp)
