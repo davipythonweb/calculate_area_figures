@@ -281,7 +281,7 @@ Campos:
 - usage:
 <!-- 
 Exemplo com curl para o triângulo:
-bashcurl -X POST http://127.0.0.1:5000/poligonos/triangulo \
+curl -X POST http://127.0.0.1:5000/poligonos/triangulo \
   -H "Content-Type: application/json" \
   -d '{"base": 10, "altura": 5}'
   
@@ -295,7 +295,7 @@ json{
 
 
 Exemplo para o losango:
-bashcurl -X POST http://127.0.0.1:5000/paralelogramos/losango \
+curl -X POST http://127.0.0.1:5000/paralelogramos/losango \
   -H "Content-Type: application/json" \
   -d '{"diagonal_maior": 8, "diagonal_menor": 4}'
 
